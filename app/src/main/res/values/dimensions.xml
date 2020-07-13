@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="closedGraphTextSize">12sp</dimen>
+    <dimen name="traceableParticlesTextSize">22sp</dimen>
+    <dimen name="verticalPadding">10dp</dimen>
+    <dimen name="strokeWidth">1dp</dimen>
+    <!-- SEEKBARS LIMITS -->
+    <dimen name="minDistance">0</dimen>
+    <dimen name="maxDistance">36</dimen>
+    <dimen name="minTimestep">10</dimen>
+    <dimen name="maxTimestep">2000</dimen>
+    <dimen name="minRadius">1</dimen>
+    <dimen name="maxRadius">60</dimen>
+    <dimen name="minNumberOfParticles">10</dimen>
+    <dimen name="maxNumberOfParticles">600</dimen>
+</resources>

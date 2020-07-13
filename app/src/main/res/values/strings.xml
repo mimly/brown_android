@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">brown_android</string>
+    <string name="actionBarTitle">Simulation of the Brownian motion</string>
+    <string name="traceParticlesTitle">Choose the particle(s)</string>
+    <string name="traceParticles">Press the ones You\'d like to follow…</string>
+    <string name="untracedParticle">#%1$d</string> <!-- #1 #2 etc. -->
+    <string name="tracedParticle">#%1$d IS BEING FOLLOWED</string>
+    <string name="colorOfParticlesLabel">COLOR OF PARTICLES</string>
+    <string name="closedGraphLabel">CLOSED GRAPH</string>
+    <string name="radiusLabel">RADIUS</string>
+    <string name="numberOfParticlesLabel">NUMBER OF PARTICLES</string>
+    <string name="distanceLabel">DISTANCE</string>
+    <string name="timestepLabel">TIMESTEP</string>
+    <string name="start">START</string>
+    <string name="stop">STOP</string>
+    <string name="pause">PAUSE</string>
+    <string name="resume">RESUME</string>
+    <string name="restart">RESTART</string>
+    <string name="exit">EXIT</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="confirm">OK</string>
+    <string name="cancel">Cancel</string>
+</resources>

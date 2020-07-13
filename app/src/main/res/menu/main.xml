@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- "Follow", should appear as action button if possible -->
+    <item
+        android:id="@+id/follow"
+        android:icon="@drawable/ic_spy_white_48dp"
+        android:onClick="onFollowPress"
+        android:title="Follow particle(s)"
+        app:showAsAction="ifRoom" />
+
+    <!-- "Track", should appear as action button if possible -->
+    <item
+        android:id="@+id/track"
+        android:icon="@drawable/ic_track_white_48dp"
+        android:onClick="onTrackPress"
+        android:title="Track particle(s)"
+        app:showAsAction="never" />
+
+    <!-- "About", should appear as action button if possible -->
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/ic_help_white_48dp"
+        android:onClick="onAboutPress"
+        android:title="About Brownian motion"
+        app:showAsAction="never" />
+
+    <!-- "Exit", should appear as action button if possible -->
+    <item
+        android:id="@+id/close"
+        android:icon="@drawable/ic_close_white_48dp"
+        android:onClick="onClosePress"
+        android:title="Close"
+        app:showAsAction="never" />
+
+</menu>
